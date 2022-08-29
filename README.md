@@ -2,4 +2,4 @@
 
 ## Setup
 
-\*\* The node version employed in te project is V16.7.0
+\*\* The node version employed in the project is V16.7.0
