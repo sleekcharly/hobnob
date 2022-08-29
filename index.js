@@ -10,4 +10,5 @@ const requestHandler = function (req, res) {
 // initialize server with request handler function
 const server = http.createServer(requestHandler);
 // listen for incoming connection
-server.listen(8080);
+server.listen(8000);
+console.log(`server listening on: ` + 8080);
