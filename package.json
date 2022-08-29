@@ -8,6 +8,7 @@
     "serve": "yarn run build && node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "nodemon -w src --exec yarn run serve",
+    "precommit": "yarn run lint",
     "fix": "eslint src --fix",
     "lint": "eslint src"
   },
