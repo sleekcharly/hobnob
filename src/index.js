@@ -8,7 +8,7 @@ import http from "http"; // ES6 syntax
 // initialize request handler
 const requestHandler = function (req, res) {
   res.writeHead(200, { "Content-Type": "text/plain" });
-  res.end("Hello, World!");
+  res.end("Hello, Everybody!");
 };
 
 // initialize server with request handler function
