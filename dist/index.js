@@ -1,9 +1,12 @@
 "use strict";
 
+require("@babel/polyfill");
+
 var _http = _interopRequireDefault(require("http"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+// import polyfill to allow us use new Javascript APIs, such as fetch.
 // import http module
 // const http = require("http"); // CommonJS syntax
 // ES6 syntax

@@ -1,3 +1,6 @@
+// import polyfill to allow us use new Javascript APIs, such as fetch.
+import "@babel/polyfill";
+
 // import http module
 // const http = require("http"); // CommonJS syntax
 import http from "http"; // ES6 syntax
