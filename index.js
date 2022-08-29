@@ -1,5 +1,6 @@
 // import http module
-const http = require("http");
+// const http = require("http"); // CommonJS syntax
+import http from "http"; // ES6 syntax
 
 // initialize request handler
 const requestHandler = function (req, res) {
