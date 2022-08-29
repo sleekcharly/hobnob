@@ -11,11 +11,11 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 // const http = require("http"); // CommonJS syntax
 // ES6 syntax
 // initialize request handler
-const requestHandler = function (req, res) {
+const requestHandler = (req, res) => {
   res.writeHead(200, {
-    "Content-Type": "text/plain"
+    'Content-Type': 'text/plain'
   });
-  res.end("Hello, Everybody!");
+  res.end('Hello, Everybody!');
 }; // initialize server with request handler function
 
 
@@ -23,4 +23,3 @@ const server = _http.default.createServer(requestHandler); // listen for incomin
 
 
 server.listen(8080);
-console.log(`server listening on: ` + 8080);
